@@ -288,8 +288,8 @@ def on_press(key):
             keyControl.release(Key.backspace)
             keyControl.press(Key.backspace)
             keyControl.release(Key.backspace)
-            keyControl.press('«')
-            keyControl.release('«')
+            keyControl.press('»')
+            keyControl.release('»')
     elif(lastKeys[0] == ','):
         if (lastKeys[1] == 'c'):
             keyControl.press(Key.backspace)
@@ -299,14 +299,6 @@ def on_press(key):
             keyControl.press('ç')
             keyControl.release('ç')
         elif (lastKeys[1] == 'C'):
-            keyControl.press(Key.backspace)
-            keyControl.release(Key.backspace)
-            keyControl.press(Key.backspace)
-            keyControl.release(Key.backspace)
-            keyControl.press('Ç')
-            keyControl.release('Ç')
-    elif(lastKeys[0] == '='):
-        if (lastKeys[1] == 'C'):
             keyControl.press(Key.backspace)
             keyControl.release(Key.backspace)
             keyControl.press(Key.backspace)
